@@ -1,5 +1,5 @@
 # bryngo.github.io
 
-THIS SITE IS CURRENTLY UNDER MAJOR RECONTRUCTION.
+Holds the resources for my main website.
 
-/~ stay tuned ~\
+Currently under construction.
