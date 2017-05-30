@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>Bryan Ngo</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/styles/primary-nav.css" />
+    <link rel="stylesheet" href="assets/styles/header.css" />
+    <link rel="stylesheet" href="assets/styles/videoBG.css" />
+    <link rel="stylesheet" href="assets/styles/custom.css" />
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css"/>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="assets/scripts/typed.min.js" type="text/javascript"></script>
+    <script>
+        $(function(){
+            $(".element").typed({
+                strings: ["Hi!", "Welcome to my site!", "My name is Bryan and I love to code!",
+                    "I also love to make videos!"],
+                typeSpeed:50,
+                backDelay:1000,
+                loop:true
+            });
+        });
+    </script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Shadows+Into+Light" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+<!-- Top level navigation-->
+<nav class="primary-nav">
+    <div class="custom_inner">
+        <ul class="primary-nav__list" style="margin: 0">
+            <li> <a id="primary-nav__active" href="index.html">Home</a></li>
+            <li> <a href="assets/pages/portfolio.html" target="_blank">Portfolio</a></li>
+            <li> <a href="assets/pages/projects.html">Projects</a></li>
+            <li> <a href="assets/pages/blog.html">Blog</a></li>
+            <li> <a href="https://github.com/Housemate1">HouseMate</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Header -->
+
+<div class="fullscreen-bg">
+    <video loop muted autoplay class="fullscreen-bg__video"
+           src="assets/images/HomeBG854.mp4" type="video/mp4" poster="assets/images/homeBG.jpeg"></video>
+    <div class="header_title-section">
+        <div class="header_title">
+            <span class="element"></span><span class="typed-cursor"></span>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>

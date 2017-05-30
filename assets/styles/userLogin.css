@@ -1,0 +1,103 @@
+.userLogin_signup {
+    background: #83fff2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, rgba(131, 255, 242, 1), rgba(37, 86, 128, 1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgba(131, 255, 242, 1), rgba(37, 86, 128, 1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgba(131, 255, 242, 1), rgba(37, 86, 128, 1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgba(131, 255, 242, 1), rgba(37, 86, 128, 1)); /* Standard syntax */
+} /* Note to self - use transparency to make gradients smooth (As seen above) */
+
+.userLogin_login {
+    background: #83fff2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, rgba(37, 86, 128, 1), rgba(131, 255, 242, 1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgba(37, 86, 128, 1), rgba(131, 255, 242, 1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgba(37, 86, 128, 1), rgba(131, 255, 242, 1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgba(37, 86, 128, 1), rgba(131, 255, 242, 1)); /* Standard syntax */
+}
+
+.userLogin_formBG {
+    background-color: rgba(11, 11, 9, 0.25);
+    width: 25%;
+    height: 25%;
+    padding: 2%;
+    border: 2px solid lightgrey;
+    margin: 12% auto 10px auto;
+    text-align: left;
+}
+
+.userLogin_title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    line-height: .1;
+    color: white;
+}
+
+.userLogin_entryField {
+    margin: 2% auto 2% auto;
+    color: white;
+    font-size: 1.2em;
+}
+
+input[type="text"],
+input[type="password"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 80%;
+    border-bottom: 2px solid #96e6ff;
+    color: white;
+    margin: 0 0 5% 3%
+}
+
+.userLogin_error {
+    color: #ff573f;
+    font-size: .8em;
+}
+
+.userLogin_success {
+    color: #75ff59;
+    font-size: .8em;
+}
+
+.userLogin_logInHere {
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgba(11, 11, 9, 0.25);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 3%;
+    width: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1%;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}

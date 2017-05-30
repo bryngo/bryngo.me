@@ -1,0 +1,48 @@
+ul, li {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+}
+
+.custom_inner {
+    overflow: hidden;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.custom_child {
+    float: left;
+    width: 50%;
+}
+
+.custom_container {
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.graphs {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    vertical-align:middle;
+    width:32%;
+}
+
+.graphContainer {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: auto;
+    max-width: auto;
+    overflow-y: hidden;
+    overflow-x:auto;
+    word-wrap:normal;
+    white-space:nowrap;
+}

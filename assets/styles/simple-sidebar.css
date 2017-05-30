@@ -1,0 +1,175 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+ body {
+    overflow-x: hidden;
+ }
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.sidebar-photography {
+    background: #00001a; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#00001a, #114673); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00001a, #114673); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00001a, #114673); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00001a, #114673); /* Standard syntax */
+}
+
+.sidebar-csclasses {
+    background: #19315c; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#19315c, #e1ba2b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#19315c, #e1ba2b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#19315c, #e1ba2b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#19315c, #e1ba2b); /* Standard syntax */
+}
+
+.sidebar-halowars2guide {
+    background: #d00915; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#d00915, #feefcf); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#d00915, #feefcf); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#d00915, #feefcf); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#d00915, #feefcf); /* Standard syntax */
+}
+
+.sidebar-halowars2guide ul li a {
+    color: black;
+}
+
+.sidebar-kbbq {
+    background: #ef8c83; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ef8c83, #edc9be); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ef8c83, #edc9be); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ef8c83, #edc9be); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ef8c83, #edc9be); /* Standard syntax */
+}
+
+.sidebar-kbbq ul li a {
+    color: black;
+}
+
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+#sidebar-nav-active {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 0;
+    }
+
+    #wrapper.toggled {
+        padding-left: 250px;
+    }
+
+    #sidebar-wrapper {
+        width: 0;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}

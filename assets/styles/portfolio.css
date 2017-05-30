@@ -1,0 +1,232 @@
+
+#resume {
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    margin: 0 15% 5% 15%;
+    font-size: 20px;
+    line-height: 150%;
+    color: white;
+}
+
+#projects {
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    margin: 0 15% 5% 15%;
+    font-size: 20px;
+    line-height: 150%;
+    color: white;
+
+}
+
+.headerToResume {
+    background: rgb(25, 52, 65); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(25, 52, 65), rgb(62, 96, 111)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(25, 52, 65), rgb(62, 96, 111)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(25, 52, 65), rgb(62, 96, 111)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(25, 52, 65), rgb(62, 96, 111)); /* Standard syntax */
+}
+
+.resumeToProject {
+    background: rgb(62, 96, 111); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(62, 96, 111), rgb(145, 170, 157)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(62, 96, 111), rgb(145, 170, 157)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(62, 96, 111), rgb(145, 170, 157)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(62, 96, 111), rgb(145, 170, 157)); /* Standard syntax */
+}
+
+.portfolio_resumeContainer {
+    background-color: rgb(62, 96, 111);
+    padding: 5% 0 5% 0
+}
+
+.portfolio_projectContainer {
+    background-color: rgb(145, 170, 157);
+    padding: 5% 0 5% 0
+}
+
+.skillset {
+    margin: 2% 5% 5% 5%;
+    text-align: left;
+}
+
+.skillsetSubtitle {
+    color: #e3e3e3;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.portfolio_header {
+    background-color: rgb(25, 52, 65);
+    padding-bottom: 10%;
+}
+
+.portfolio_entryTitle {
+    margin-top: 2%;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.inner {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 100%;
+
+
+}
+
+.portfolio_projectBox {
+    float: left;
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.left_child {
+    float: left;
+    width: 50%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.right_child {
+    float: left;
+    width: 50%;
+    text-align: right;
+    vertical-align: middle;
+    color: #e3e3e3;
+    font-style: italic;
+}
+
+.portfolio_title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+.portfolio_subTitle {
+    font-family: inherit;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.portfolio_projectDescription {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.portfolio_headerPicContainer {
+    width: 12%;
+    height: 25%;
+    margin: 0 auto 2% auto;
+    text-align: center;
+    top: 25%;
+}
+
+.portfolio_headerPic {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: .1em solid black;
+    margin-top: 25%;
+    background: white;
+}
+
+.portfolio_icon {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    padding: 0 1% 0 1%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.portoflio_iconContainer {
+    text-align: center;
+}
+
+.portfolio_iconContainer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.homeServer {
+    background-size: cover;
+    background: url("../images/serverRoom.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 400px;
+}
+
+.visurithm {
+
+    background-size: cover;
+    background: url("../images/algorithm.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 400px;
+}
+
+.powerpick {
+
+    background-size: cover;
+    background: url("../images/caLottery.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 400px;
+}
+
+.encryption {
+    background-size: cover;
+    background: url("../images/encryption.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 400px;
+}
+
+.projectText {
+    background: rgba(255, 255, 255, 0);
+    text-align: center;
+    height: 100%;
+    color: transparent;
+}
+
+.inner:hover .projectText {
+    transition: .3s all;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: justify;
+    color: black;
+    font-weight: 700;
+    padding: 30px
+
+
+}
+
+.skill {
+    float: left;
+    height: 100%;
+    width: 200px;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}

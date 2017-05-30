@@ -1,0 +1,108 @@
+/* sets base style for each page */
+
+img, embed,
+object, video {
+    max-width: 100%;
+}
+
+header {
+    height: 50%;
+    width: auto;
+    background-size: cover;
+    background-position: top;
+}
+
+.generalBG {
+    background: rgba(64, 87, 82, 0.42); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, rgba(64, 87, 82, 0.42), #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgba(64, 87, 82, 0.42), #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgba(64, 87, 82, 0.42), #ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgba(64, 87, 82, 0.42), #ffffff); /* Standard syntax */
+}
+
+.secretSantaBG {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top,rgba(35,130,20,1),rgba(255,0,0,0)); /* Safari 5.1-6 */
+    background: -o-linear-gradient(bottom right,rgba(35,130,20,1),rgba(255,0,0,0)); /* Opera 11.1-12 */
+    background: -moz-linear-gradient(bottom right,rgba(35,130,20,1),rgba(255,0,0,0)); /* Fx 3.6-15 */
+    background: linear-gradient(to bottom right, rgba(35,130,20,1), rgba(255,0,0,0)); /* Standard */
+}
+
+.portfolioBG {
+    border: 50px double grey;
+    padding: 1%;
+    border-radius: 50%;
+}
+
+
+.header_title-section {
+    position: relative;
+    margin-top: 10%;
+    text-align: center;
+    z-index: 1;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+    top: 0px;
+    z-index:1;
+}
+
+.header_title {
+    font-family: 'Open Sans', sans-serif;
+    color: #f0f0f0;
+    font-size: 4.5em;
+    text-shadow: 4px 4px 4px rgba(40,40,40, 0.6);
+    line-height: 100%;
+}
+
+.header_loginRequired {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: red;
+    font-size: 1em;
+    margin-top: 3%;
+}
+
+.header_loginRequired a {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+#login {
+    text-align: left;
+}
+
+#nav {
+    text-align: right;
+}
+
+/* For the blinking cursor */
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
